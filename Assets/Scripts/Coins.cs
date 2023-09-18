@@ -9,7 +9,7 @@ public class Coins : MonoBehaviour
     [SerializeField] SoundEffectPlayer soundPlayer;
     private const string IS_PLAYER = "Player";
     private const string IS_GAMECONTROLLER = "Player";
-
+    // test github
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag(IS_GAMECONTROLLER).GetComponent<GameManager>();
